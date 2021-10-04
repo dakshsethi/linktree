@@ -2,4 +2,5 @@
 *.css.map
 *.sass.map
 *.scss.map
+*.scss
 node_modules
