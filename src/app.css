@@ -58,12 +58,25 @@
   cursor: pointer;
   text-decoration: none;
   width: 90%;
-  padding: 10px 0;
+  padding: 5px 10px;
   text-align: center;
   border-radius: 10px;
   margin-bottom: 1em;
   font-weight: 600;
   color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.socials .button img {
+  width: 30px;
 }
 
 @media screen and (max-width: 500px) {
